@@ -1,0 +1,25 @@
+
+/* .details-container{
+    position: relative;
+} */
+
+.details-container::before{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 1.2px;
+    background-color: var(--border-color);
+    top: -30px;
+}
+
+.details-container::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1.2px;
+    background-color: var(--border-color);
+    bottom: -30px;
+}
+.details-container p{
+    color: gray;
+}
